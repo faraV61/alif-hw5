@@ -1,1 +1,5 @@
-package alif_hw5
+package main
+
+func main() {
+
+}
