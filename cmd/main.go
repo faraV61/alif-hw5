@@ -41,7 +41,7 @@ func main() {
 	current_time := commission.GetCurrentTime()
 
 	fmt.Println("\n========= Электронный чек ===========")
-	fmt.Printf("Отправитель:%s", strings.ToUpper(sender_last), strings.ToUpper(sender_first))
+	fmt.Printf("Отправитель:%s %s\n", strings.ToUpper(sender_last), strings.ToUpper(sender_first))
 	fmt.Printf("Получатель: %s %s\n", strings.ToUpper(receiver_last), strings.ToUpper(receiver_first))
 	fmt.Printf("Номер транзакции: %d\n", tran_id)
 	fmt.Printf("Счёт зачисления:  %s\n", maskedCard)
